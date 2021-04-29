@@ -1,0 +1,124 @@
+.complete {
+    text-decoration: line-through;
+    color: black;
+}
+
+.cancelTodo {
+    background-color: red;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.is-done {
+    text-decoration: line-through;
+}
+
+body {
+    background-color: rgb(78, 96, 118);
+}
+
+.todo {
+    /* position: absolute; */
+    margin: 5px auto;
+    padding: 10px;
+    width: 30vw;
+    border: 1px solid rgb(75, 92, 120);
+    border-radius: 5px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(2, 15, 61, 0.4);
+}
+
+/* .todoForm {
+    position: relative;
+} */
+
+.todo h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px;
+    color: #fff;
+}
+
+.todo form {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.todo form input {
+    flex-grow: 1;
+    border-radius: 4px;
+    border: 1px solid grey;
+    padding: 8px;
+}
+
+.addBtn {
+    border-radius: 4px;
+    border: 1px solid grey;
+    margin-left: 3px;
+    padding: 0 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.clear {
+    display: block;
+    width: 100%;
+    padding: 6px 3px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    background-color: rgb(147, 159, 174);
+}
+
+.taskList {
+    color: #fff;
+    list-style: none;
+}
+
+.taskList li {
+    background: rgba(65, 74, 174, 0.5);
+    margin: 5px;
+    padding: 2px 3px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox {
+    margin-right: 4px;
+}
+
+.buttons button {
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.delBtn {
+    background: red;
+    color: #fff;
+    border: 1px solid red;
+}
+
+.cmplBtn {
+    background: green;
+    border: 1px solid green;
+    color: #fff;
+}
+
+.error {
+    color: rgb(228, 71, 71);
+    /* background: #fff; */
+}
